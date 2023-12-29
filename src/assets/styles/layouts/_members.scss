@@ -1,0 +1,6 @@
+@layer components{
+    .card {
+        @apply basis-1/5 m-10 p-10 text-center border-2 border-solid rounded-lg bg-white;
+    }
+}
+

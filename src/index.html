@@ -5,21 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Tennis club</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+    <include src="./views/header.html"></include>
+
+    <div class="card-grid">
+      <div class="container__h1">
+        <h1>Tennis Tournament</h1>
+        <p>The Sporting event of the year!</p>
+      </div>
+  
+      <div class="container__img">
+        <img src="./assets/images/spots/photo-home.webp" alt="Tennis tournament">
+      </div>
+  
+      <div class="container__detail">
+        <h2>Tournament Details</h2>
+        <p><strong>Date:</strong> 10-15 July, 2023</p>
+        <p><strong>Place:</strong> Sport Tennis club</p>
+        <p><strong>Categories:</strong> Dobles and single</p>
+        <p><strong>Close Date:</strong> 1 July</p>
+      </div>
+      <div class="conainer__button">
+        <button type="button" class="btn btn-primary">Sign up here!</button>
+      </div>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
