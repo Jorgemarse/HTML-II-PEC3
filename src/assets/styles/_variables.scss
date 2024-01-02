@@ -3,24 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,800;1,100;1,400;1,800&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
 
-$font-family-dancing-script: "Dancing Script", cursive;
+//font
 $font-family-sans-serif: montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
-$font-family-serif: "Permanent Marker", "Georgia", "Times New Roman", serif;
 
+//corporate color
 $corporate: #182e72;
-$bgcard: #fff;
-$masterbrand: #e2b776;
 
-
-
-$bg: color.scale( $masterbrand, $lightness: 70% );
+//Background color
+$bg: color.scale( #e2b776, $lightness: 70% );
 
 $mqminwidth: 789px;
 $mqmaxwidth: 1380px;
-
-/* Bootstrap sass variables */
-$theme-colors: (
-  "primary": $corporate
-);

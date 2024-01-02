@@ -1,0 +1,12 @@
+
+@layer structure_grid{
+  .poster__grid {
+    @apply grid grid-cols-1 gap-5 m-auto mt-10 p-10 bg-white shadow-md rounded-lg text-center;
+
+    @supports ( display: grid ) {
+      display: grid;
+      overflow: visible;
+    }
+
+  }
+}
